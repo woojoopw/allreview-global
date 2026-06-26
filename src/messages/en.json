@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "search": "Search"
+  },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "Reviews around you, anywhere in the world",
+    "searchPlaceholder": "Search places, food, area...",
+    "nearbyButton": "Explore Nearby",
+    "nearbyDistrict": "My Neighborhood",
+    "nearbyCity": "My City",
+    "popular": "Popular Places",
+    "reviewCount": "Most Reviewed",
+    "rating": "Top Rated",
+    "noResults": "No places found nearby",
+    "loading": "Finding nearby places...",
+    "enableGps": "Please enable GPS",
+    "reviews": "reviews"
+  },
+  "categories": {
+    "restaurant": "Restaurant",
+    "cafe": "Cafe",
+    "bar": "Bar",
+    "hotel": "Hotel",
+    "attraction": "Attraction",
+    "shopping": "Shopping",
+    "beauty": "Beauty",
+    "hospital": "Hospital"
+  }
+}

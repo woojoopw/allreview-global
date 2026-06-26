@@ -1,0 +1,23 @@
+{
+  "nav": { "home": "ホーム", "explore": "探索", "search": "検索" },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "世界中どこでも、近くのレビューを一目で",
+    "searchPlaceholder": "場所・料理・エリアを検索...",
+    "nearbyButton": "近くを探索",
+    "nearbyDistrict": "近所",
+    "nearbyCity": "この街",
+    "popular": "人気スポット",
+    "reviewCount": "レビュー数順",
+    "rating": "評価順",
+    "noResults": "近くに場所が見つかりません",
+    "loading": "近くの場所を検索中...",
+    "enableGps": "GPSを有効にしてください",
+    "reviews": "件のレビュー"
+  },
+  "categories": {
+    "restaurant": "レストラン", "cafe": "カフェ", "bar": "バー",
+    "hotel": "ホテル", "attraction": "観光地", "shopping": "ショッピング",
+    "beauty": "美容", "hospital": "病院"
+  }
+}

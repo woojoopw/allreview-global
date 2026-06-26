@@ -1,0 +1,23 @@
+{
+  "nav": { "home": "Beranda", "explore": "Jelajahi", "search": "Cari" },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "Ulasan di sekitar Anda, di mana saja di dunia",
+    "searchPlaceholder": "Cari tempat, makanan, area...",
+    "nearbyButton": "Jelajahi Sekitar",
+    "nearbyDistrict": "Lingkungan Saya",
+    "nearbyCity": "Kota Saya",
+    "popular": "Tempat Populer",
+    "reviewCount": "Ulasan Terbanyak",
+    "rating": "Rating Tertinggi",
+    "noResults": "Tidak ada tempat di sekitar",
+    "loading": "Mencari tempat terdekat...",
+    "enableGps": "Mohon aktifkan GPS",
+    "reviews": "ulasan"
+  },
+  "categories": {
+    "restaurant": "Restoran", "cafe": "Kafe", "bar": "Bar",
+    "hotel": "Hotel", "attraction": "Wisata", "shopping": "Belanja",
+    "beauty": "Kecantikan", "hospital": "Rumah Sakit"
+  }
+}

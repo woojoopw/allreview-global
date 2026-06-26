@@ -1,0 +1,23 @@
+{
+  "nav": { "home": "Trang chủ", "explore": "Khám phá", "search": "Tìm kiếm" },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "Đánh giá xung quanh bạn, ở bất cứ đâu trên thế giới",
+    "searchPlaceholder": "Tìm địa điểm, ẩm thực, khu vực...",
+    "nearbyButton": "Khám phá xung quanh",
+    "nearbyDistrict": "Khu phố của tôi",
+    "nearbyCity": "Thành phố của tôi",
+    "popular": "Địa điểm phổ biến",
+    "reviewCount": "Nhiều đánh giá nhất",
+    "rating": "Điểm cao nhất",
+    "noResults": "Không tìm thấy địa điểm gần đây",
+    "loading": "Đang tìm địa điểm gần đây...",
+    "enableGps": "Vui lòng bật GPS",
+    "reviews": "đánh giá"
+  },
+  "categories": {
+    "restaurant": "Nhà hàng", "cafe": "Quán cà phê", "bar": "Quán bar",
+    "hotel": "Khách sạn", "attraction": "Điểm tham quan", "shopping": "Mua sắm",
+    "beauty": "Làm đẹp", "hospital": "Bệnh viện"
+  }
+}

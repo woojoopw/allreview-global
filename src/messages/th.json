@@ -1,0 +1,23 @@
+{
+  "nav": { "home": "หน้าหลัก", "explore": "สำรวจ", "search": "ค้นหา" },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "รีวิวใกล้คุณ ทุกที่ทั่วโลก",
+    "searchPlaceholder": "ค้นหาสถานที่ อาหาร พื้นที่...",
+    "nearbyButton": "สำรวจใกล้ฉัน",
+    "nearbyDistrict": "ย่านของฉัน",
+    "nearbyCity": "เมืองของฉัน",
+    "popular": "สถานที่ยอดนิยม",
+    "reviewCount": "รีวิวมากสุด",
+    "rating": "คะแนนสูงสุด",
+    "noResults": "ไม่พบสถานที่ใกล้เคียง",
+    "loading": "กำลังค้นหาสถานที่ใกล้เคียง...",
+    "enableGps": "กรุณาเปิด GPS",
+    "reviews": "รีวิว"
+  },
+  "categories": {
+    "restaurant": "ร้านอาหาร", "cafe": "คาเฟ่", "bar": "บาร์",
+    "hotel": "โรงแรม", "attraction": "สถานที่ท่องเที่ยว", "shopping": "ช้อปปิ้ง",
+    "beauty": "ความงาม", "hospital": "โรงพยาบาล"
+  }
+}

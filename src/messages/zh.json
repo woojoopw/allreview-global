@@ -1,0 +1,23 @@
+{
+  "nav": { "home": "首页", "explore": "探索", "search": "搜索" },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "无论身在何处，一键查看周边评价",
+    "searchPlaceholder": "搜索地点、美食、区域...",
+    "nearbyButton": "探索附近",
+    "nearbyDistrict": "我的街区",
+    "nearbyCity": "我的城市",
+    "popular": "热门地点",
+    "reviewCount": "评价最多",
+    "rating": "评分最高",
+    "noResults": "附近没有找到地点",
+    "loading": "正在查找附近地点...",
+    "enableGps": "请开启GPS",
+    "reviews": "条评价"
+  },
+  "categories": {
+    "restaurant": "餐厅", "cafe": "咖啡厅", "bar": "酒吧",
+    "hotel": "住宿", "attraction": "景点", "shopping": "购物",
+    "beauty": "美容", "hospital": "医院"
+  }
+}

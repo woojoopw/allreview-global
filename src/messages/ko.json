@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "홈",
+    "explore": "탐색",
+    "search": "검색"
+  },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "전 세계 어디서든, 지금 주변 리뷰를 한눈에",
+    "searchPlaceholder": "장소, 음식, 지역 검색...",
+    "nearbyButton": "내 주변 탐색",
+    "nearbyDistrict": "내 동네",
+    "nearbyCity": "내 도시",
+    "popular": "인기 장소",
+    "reviewCount": "리뷰 많은 순",
+    "rating": "평점 높은 순",
+    "noResults": "주변 장소를 찾을 수 없어요",
+    "loading": "주변 장소 찾는 중...",
+    "enableGps": "GPS를 켜주세요",
+    "reviews": "리뷰"
+  },
+  "categories": {
+    "restaurant": "맛집",
+    "cafe": "카페",
+    "bar": "술집",
+    "hotel": "숙소",
+    "attraction": "관광지",
+    "shopping": "쇼핑",
+    "beauty": "미용",
+    "hospital": "병원"
+  }
+}

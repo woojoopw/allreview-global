@@ -1,0 +1,23 @@
+{
+  "nav": { "home": "होम", "explore": "एक्सप्लोर", "search": "खोजें" },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "दुनिया में कहीं भी, पास के रिव्यू एक नज़र में",
+    "searchPlaceholder": "जगह, खाना, क्षेत्र खोजें...",
+    "nearbyButton": "पास में एक्सप्लोर करें",
+    "nearbyDistrict": "मेरा मोहल्ला",
+    "nearbyCity": "मेरा शहर",
+    "popular": "लोकप्रिय जगहें",
+    "reviewCount": "सबसे ज़्यादा रिव्यू",
+    "rating": "सबसे ज़्यादा रेटिंग",
+    "noResults": "पास में कोई जगह नहीं मिली",
+    "loading": "पास की जगहें ढूंढ रहे हैं...",
+    "enableGps": "कृपया GPS चालू करें",
+    "reviews": "रिव्यू"
+  },
+  "categories": {
+    "restaurant": "रेस्तरां", "cafe": "कैफे", "bar": "बार",
+    "hotel": "होटल", "attraction": "आकर्षण", "shopping": "शॉपिंग",
+    "beauty": "ब्यूटी", "hospital": "अस्पताल"
+  }
+}

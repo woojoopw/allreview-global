@@ -1,0 +1,23 @@
+{
+  "nav": { "home": "Inicio", "explore": "Explorar", "search": "Buscar" },
+  "home": {
+    "title": "ALL Review",
+    "subtitle": "Reseñas cerca de ti, en cualquier parte del mundo",
+    "searchPlaceholder": "Buscar lugares, comida, área...",
+    "nearbyButton": "Explorar cerca",
+    "nearbyDistrict": "Mi barrio",
+    "nearbyCity": "Mi ciudad",
+    "popular": "Lugares populares",
+    "reviewCount": "Más reseñas",
+    "rating": "Mejor valorados",
+    "noResults": "No se encontraron lugares cercanos",
+    "loading": "Buscando lugares cercanos...",
+    "enableGps": "Por favor activa el GPS",
+    "reviews": "reseñas"
+  },
+  "categories": {
+    "restaurant": "Restaurante", "cafe": "Cafetería", "bar": "Bar",
+    "hotel": "Hotel", "attraction": "Atracción", "shopping": "Tiendas",
+    "beauty": "Belleza", "hospital": "Hospital"
+  }
+}
