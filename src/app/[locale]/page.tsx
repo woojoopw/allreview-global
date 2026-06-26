@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import PlaceCard from '@/components/PlaceCard';
 import type { PlaceResult } from '@/lib/places';
@@ -38,6 +38,8 @@ type SortType = 'reviews' | 'rating';
 export default function HomePage() {
   const locale = useLocale();
   const router = useRouter();
+  const t = useTranslations('home');
+  const tCat = useTranslations('categories');
 
   const [location, setLocation] = useState<Location | null>(null);
   const [gpsError, setGpsError] = useState('');
@@ -79,7 +81,7 @@ export default function HomePage() {
     setGpsLoading(true);
     setGpsError('');
     if (!navigator.geolocation) {
-      setGpsError('GPS를 지원하지 않는 브라우저예요');
+      setGpsError(t('gpsNotSupported'));
       setGpsLoading(false);
       return;
     }
@@ -91,7 +93,7 @@ export default function HomePage() {
         fetchPlaces(loc, selectedCategory);
       },
       () => {
-        setGpsError('위치 권한을 허용해주세요');
+        setGpsError(t('gpsError'));
         setGpsLoading(false);
       }
     );
@@ -109,7 +111,7 @@ export default function HomePage() {
     router.push(`/${locale}/results?q=${q}${ll}`);
   };
 
-  const catLabel = (cat: typeof CATEGORIES[0]) => locale === 'ko' ? cat.ko : cat.en;
+  const catLabel = (cat: typeof CATEGORIES[0]) => tCat(cat.key);
 
   const handleCategorySelect = (cat: typeof CATEGORIES[0]) => {
     setSelectedCategory(cat);
@@ -245,7 +247,7 @@ export default function HomePage() {
                 type="text"
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                placeholder="장소, 음식, 지역 검색..."
+                placeholder={t('searchPlaceholder')}
                 className="w-full pl-10 pr-4 py-3.5 rounded-2xl border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:border-gray-400 text-sm text-gray-800 placeholder:text-gray-300 transition-all"
               />
               {searchQuery && (
@@ -259,8 +261,8 @@ export default function HomePage() {
           {/* GPS CTA */}
           {!location && (
             <div className="mb-12">
-              <h1 className="text-2xl font-bold text-gray-900 mb-1">전 세계 어디서든</h1>
-              <p className="text-gray-400 text-sm mb-6">GPS를 켜면 지금 있는 곳 주변 장소를 바로 볼 수 있어요</p>
+              <h1 className="text-2xl font-bold text-gray-900 mb-1">{t('gpsTitle')}</h1>
+              <p className="text-gray-400 text-sm mb-6">{t('gpsDescription')}</p>
               {gpsError && <p className="text-red-400 text-sm mb-4">{gpsError}</p>}
               <button
                 onClick={handleGetLocation}
@@ -268,9 +270,9 @@ export default function HomePage() {
                 className="inline-flex items-center gap-2 bg-gray-900 text-white text-sm font-medium px-5 py-3 rounded-2xl hover:bg-gray-700 transition disabled:opacity-40"
               >
                 {gpsLoading ? (
-                  <><span className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" /> 위치 찾는 중</>
+                  <><span className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" /> {t('gpsSearching')}</>
                 ) : (
-                  <>내 주변 탐색하기</>
+                  <>{t('nearbyButton')}</>
                 )}
               </button>
             </div>
@@ -289,7 +291,7 @@ export default function HomePage() {
                       sortType === s ? 'border-gray-900 text-gray-900' : 'border-transparent text-gray-400 hover:text-gray-600'
                     }`}
                   >
-                    {s === 'reviews' ? '리뷰 많은 순' : '평점 높은 순'}
+                    {s === 'reviews' ? t('reviewCount') : t('rating')}
                   </button>
                 ))}
               </div>
@@ -298,7 +300,7 @@ export default function HomePage() {
               {loading && (
                 <div className="flex items-center gap-2 text-gray-300 py-12">
                   <span className="w-4 h-4 border-2 border-gray-200 border-t-gray-400 rounded-full animate-spin" />
-                  <span className="text-sm">주변 장소 찾는 중...</span>
+                  <span className="text-sm">{t('loading')}</span>
                 </div>
               )}
 
@@ -308,8 +310,8 @@ export default function HomePage() {
                   <section className="mb-12">
                     <div className="flex items-baseline justify-between mb-5">
                       <div>
-                        <h2 className="text-lg font-bold text-gray-900">내 동네 {catLabel(selectedCategory)}</h2>
-                        <p className="text-xs text-gray-400 mt-0.5">반경 1km</p>
+                        <h2 className="text-lg font-bold text-gray-900">{t('nearbyDistrict')} {catLabel(selectedCategory)}</h2>
+                        <p className="text-xs text-gray-400 mt-0.5">{t('radius1km')}</p>
                       </div>
                     </div>
                     {displayDistrict.length > 0 ? (
@@ -323,15 +325,15 @@ export default function HomePage() {
                         ))}
                       </div>
                     ) : (
-                      <p className="text-sm text-gray-300 py-6">반경 1km 내 {catLabel(selectedCategory)} 없음</p>
+                      <p className="text-sm text-gray-300 py-6">{t('noPlaces', { category: catLabel(selectedCategory) })}</p>
                     )}
                   </section>
 
                   <section className="mb-12">
                     <div className="flex items-baseline justify-between mb-5">
                       <div>
-                        <h2 className="text-lg font-bold text-gray-900">내 도시 {catLabel(selectedCategory)}</h2>
-                        <p className="text-xs text-gray-400 mt-0.5">반경 5km</p>
+                        <h2 className="text-lg font-bold text-gray-900">{t('nearbyCity')} {catLabel(selectedCategory)}</h2>
+                        <p className="text-xs text-gray-400 mt-0.5">{t('radius5km')}</p>
                       </div>
                     </div>
                     {displayCity.length > 0 ? (
@@ -345,7 +347,7 @@ export default function HomePage() {
                         ))}
                       </div>
                     ) : (
-                      <p className="text-sm text-gray-300 py-6">반경 5km 내 {catLabel(selectedCategory)} 없음</p>
+                      <p className="text-sm text-gray-300 py-6">{t('noPlaces', { category: catLabel(selectedCategory) })}</p>
                     )}
                   </section>
                 </>

@@ -13,7 +13,15 @@
     "noResults": "Aucun lieu trouvé à proximité",
     "loading": "Recherche des lieux à proximité...",
     "enableGps": "Veuillez activer le GPS",
-    "reviews": "avis"
+    "reviews": "avis",
+    "gpsTitle": "Partout dans le monde",
+    "gpsDescription": "Activez le GPS pour voir les lieux autour de vous",
+    "gpsSearching": "Recherche de localisation",
+    "radius1km": "Dans 1km",
+    "radius5km": "Dans 5km",
+    "gpsError": "Veuillez autoriser l'accès à la localisation",
+    "gpsNotSupported": "GPS non supporté par ce navigateur",
+    "noPlaces": "Pas de {category} dans cette zone"
   },
   "categories": {
     "restaurant": "Restaurant", "cafe": "Café", "bar": "Bar",

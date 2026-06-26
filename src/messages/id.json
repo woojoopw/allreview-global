@@ -13,7 +13,15 @@
     "noResults": "Tidak ada tempat di sekitar",
     "loading": "Mencari tempat terdekat...",
     "enableGps": "Mohon aktifkan GPS",
-    "reviews": "ulasan"
+    "reviews": "ulasan",
+    "gpsTitle": "Di mana saja di dunia",
+    "gpsDescription": "Aktifkan GPS untuk melihat tempat di sekitar Anda",
+    "gpsSearching": "Mencari lokasi",
+    "radius1km": "Dalam 1km",
+    "radius5km": "Dalam 5km",
+    "gpsError": "Mohon izinkan akses lokasi",
+    "gpsNotSupported": "GPS tidak didukung di browser ini",
+    "noPlaces": "Tidak ada {category} di area ini"
   },
   "categories": {
     "restaurant": "Restoran", "cafe": "Kafe", "bar": "Bar",

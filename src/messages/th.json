@@ -13,7 +13,15 @@
     "noResults": "ไม่พบสถานที่ใกล้เคียง",
     "loading": "กำลังค้นหาสถานที่ใกล้เคียง...",
     "enableGps": "กรุณาเปิด GPS",
-    "reviews": "รีวิว"
+    "reviews": "รีวิว",
+    "gpsTitle": "ทุกที่ในโลก",
+    "gpsDescription": "เปิด GPS เพื่อดูสถานที่ใกล้เคียง",
+    "gpsSearching": "กำลังค้นหาตำแหน่ง",
+    "radius1km": "ภายใน 1 กม.",
+    "radius5km": "ภายใน 5 กม.",
+    "gpsError": "กรุณาอนุญาตการเข้าถึงตำแหน่ง",
+    "gpsNotSupported": "เบราว์เซอร์นี้ไม่รองรับ GPS",
+    "noPlaces": "ไม่มี{category}ในบริเวณนี้"
   },
   "categories": {
     "restaurant": "ร้านอาหาร", "cafe": "คาเฟ่", "bar": "บาร์",

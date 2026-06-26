@@ -17,7 +17,15 @@
     "noResults": "No places found nearby",
     "loading": "Finding nearby places...",
     "enableGps": "Please enable GPS",
-    "reviews": "reviews"
+    "reviews": "reviews",
+    "gpsTitle": "Anywhere in the World",
+    "gpsDescription": "Turn on GPS to see places around you right now",
+    "gpsSearching": "Finding location",
+    "radius1km": "Within 1km",
+    "radius5km": "Within 5km",
+    "gpsError": "Please allow location access",
+    "gpsNotSupported": "GPS not supported in this browser",
+    "noPlaces": "No {category} in this area"
   },
   "categories": {
     "restaurant": "Restaurant",

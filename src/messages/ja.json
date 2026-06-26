@@ -13,7 +13,15 @@
     "noResults": "近くに場所が見つかりません",
     "loading": "近くの場所を検索中...",
     "enableGps": "GPSを有効にしてください",
-    "reviews": "件のレビュー"
+    "reviews": "件のレビュー",
+    "gpsTitle": "世界中どこでも",
+    "gpsDescription": "GPSをオンにすると、近くのスポットがすぐ表示されます",
+    "gpsSearching": "位置情報を取得中",
+    "radius1km": "半径1km以内",
+    "radius5km": "半径5km以内",
+    "gpsError": "位置情報のアクセスを許可してください",
+    "gpsNotSupported": "このブラウザはGPSに対応していません",
+    "noPlaces": "この範囲に{category}はありません"
   },
   "categories": {
     "restaurant": "レストラン", "cafe": "カフェ", "bar": "バー",

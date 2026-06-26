@@ -13,7 +13,15 @@
     "noResults": "附近没有找到地点",
     "loading": "正在查找附近地点...",
     "enableGps": "请开启GPS",
-    "reviews": "条评价"
+    "reviews": "条评价",
+    "gpsTitle": "世界各地",
+    "gpsDescription": "开启GPS即可查看您周边的地点",
+    "gpsSearching": "定位中",
+    "radius1km": "1公里内",
+    "radius5km": "5公里内",
+    "gpsError": "请允许位置访问",
+    "gpsNotSupported": "此浏览器不支持GPS",
+    "noPlaces": "此范围内没有{category}"
   },
   "categories": {
     "restaurant": "餐厅", "cafe": "咖啡厅", "bar": "酒吧",

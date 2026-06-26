@@ -13,7 +13,15 @@
     "noResults": "पास में कोई जगह नहीं मिली",
     "loading": "पास की जगहें ढूंढ रहे हैं...",
     "enableGps": "कृपया GPS चालू करें",
-    "reviews": "रिव्यू"
+    "reviews": "रिव्यू",
+    "gpsTitle": "दुनिया में कहीं भी",
+    "gpsDescription": "GPS चालू करें और आस-पास की जगहें देखें",
+    "gpsSearching": "स्थान खोज रहे हैं",
+    "radius1km": "1 किमी के भीतर",
+    "radius5km": "5 किमी के भीतर",
+    "gpsError": "कृपया स्थान की अनुमति दें",
+    "gpsNotSupported": "यह ब्राउज़र GPS का समर्थन नहीं करता",
+    "noPlaces": "इस क्षेत्र में कोई {category} नहीं"
   },
   "categories": {
     "restaurant": "रेस्तरां", "cafe": "कैफे", "bar": "बार",

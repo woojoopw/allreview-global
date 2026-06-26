@@ -8,7 +8,7 @@
     "title": "ALL Review",
     "subtitle": "전 세계 어디서든, 지금 주변 리뷰를 한눈에",
     "searchPlaceholder": "장소, 음식, 지역 검색...",
-    "nearbyButton": "내 주변 탐색",
+    "nearbyButton": "내 주변 탐색하기",
     "nearbyDistrict": "내 동네",
     "nearbyCity": "내 도시",
     "popular": "인기 장소",
@@ -17,7 +17,15 @@
     "noResults": "주변 장소를 찾을 수 없어요",
     "loading": "주변 장소 찾는 중...",
     "enableGps": "GPS를 켜주세요",
-    "reviews": "리뷰"
+    "reviews": "리뷰",
+    "gpsTitle": "전 세계 어디서든",
+    "gpsDescription": "GPS를 켜면 지금 있는 곳 주변 장소를 바로 볼 수 있어요",
+    "gpsSearching": "위치 찾는 중",
+    "radius1km": "반경 1km",
+    "radius5km": "반경 5km",
+    "gpsError": "위치 권한을 허용해주세요",
+    "gpsNotSupported": "GPS를 지원하지 않는 브라우저예요",
+    "noPlaces": "이 반경 내 {category} 없음"
   },
   "categories": {
     "restaurant": "맛집",

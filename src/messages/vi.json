@@ -13,7 +13,15 @@
     "noResults": "Không tìm thấy địa điểm gần đây",
     "loading": "Đang tìm địa điểm gần đây...",
     "enableGps": "Vui lòng bật GPS",
-    "reviews": "đánh giá"
+    "reviews": "đánh giá",
+    "gpsTitle": "Bất cứ đâu trên thế giới",
+    "gpsDescription": "Bật GPS để xem các địa điểm xung quanh bạn",
+    "gpsSearching": "Đang tìm vị trí",
+    "radius1km": "Trong vòng 1km",
+    "radius5km": "Trong vòng 5km",
+    "gpsError": "Vui lòng cho phép truy cập vị trí",
+    "gpsNotSupported": "Trình duyệt này không hỗ trợ GPS",
+    "noPlaces": "Không có {category} trong khu vực này"
   },
   "categories": {
     "restaurant": "Nhà hàng", "cafe": "Quán cà phê", "bar": "Quán bar",
